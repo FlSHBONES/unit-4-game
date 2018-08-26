@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Reset CSS -->
+<link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
+
+<!-- Bootstrap File -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Personal CSS -->
+<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+</head>
+
+<body>
+    <!-- Game Header -->
+
+    <div class="InstructionBlock">
+
+        <h1>Crystal Collector</h1>
+        <div class="col-md-5">
+            <br>
+            <p><strong>Instructions</strong></p>
+            <li>Each Crystal has a secret value</li>
+            <li>Click each crystal to add the mystery values up</li>
+            <li>The added values will be displayed in the "Crystal Points" box</li>
+            <li>Try to get the target value to win!</li>
+        </div>
+    </div>
+    <br>
+    <div class="col-sm-6">
+        <div class="target" id="target"> Target:
+            </p>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="crystalpointsbox" id=crystalcount> Counter:</div>
+        <div>
+        </div>
+        <br>
+               <div class="col-md-6">
+            <p id="wins"> Wins:</p>
+        </div>
+        <div class="col-md-6">
+            <p id="losses"> Losses: </p>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <div id="crystalfield">
+        <img src="assets/images/crystal1.jpg" id="crystal1">
+        <img src="assets/images/crystal2.jpg" id="crystal2">
+        <img src="assets/images/crystal3.jpg" id="crystal3">
+        <img src="assets/images/crystal4.png" id="crystal4">
+    </div>
+
+    
+
+</body>
+<!-- JQuery -->
+<script src="https://code.jquery.com/jquery.js"></script>
+
+</html>
