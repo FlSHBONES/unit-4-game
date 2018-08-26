@@ -55,7 +55,7 @@ $(document).ready(function startgame() {
     console.log(crystaltwo);
     console.log(crystalthree);
     console.log(crystalfour);
-    console.log (gamestart)
+    console.log (gamestart);
     });
 
 
